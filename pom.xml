@@ -106,11 +106,6 @@
                         </goals>
                     </execution>
                 </executions>
-                <configuration>
-                    <excludes>
-                        <exclude>codeaspects/**</exclude>
-                    </excludes>
-                </configuration>
             </plugin>
         </plugins>
     </build>

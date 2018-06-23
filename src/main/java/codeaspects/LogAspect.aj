@@ -48,6 +48,7 @@ public class LogAspect {
     public Object doLog( ProceedingJoinPoint pjp ) throws Throwable {
 
         LOG.debug( "Method: " + pjp.getSignature().getName() + logparameter( pjp ) );
+        System.out.println(pjp);
 
         return pjp.proceed();
     }
